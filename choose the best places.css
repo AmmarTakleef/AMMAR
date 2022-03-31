@@ -1,10 +1,11 @@
-#page .a .figure .hfoter .poter {
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 
-margin: 0%;
     width: auto; height: auto; 
     background-color:rgb(153, 194, 245);
     color: aqua;
-    overflow: hidden;
+    
 }
      
 
@@ -38,7 +39,8 @@ padding-right: 10px;
 #hpoter #pfoter {
     background-position: bottom, center;
     size: 100px;
-    background-color: rgb(rgb(88, 36, 231), green, blue);
+    background-color: rgb(rgb(88, 36, 231), 0,0);
+    font-family: 'Times New Roman', Times, serif;
     color: white;
     
 
