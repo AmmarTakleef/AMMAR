@@ -18,11 +18,14 @@
 
 .contener {
 
+    grid-template-rows: 66%;
 
     border: 1px solid rgb(147, 233, 233);
     
     background-color: white;
     color: black;
+    gap: 3px;
+
 
 }
 
@@ -36,6 +39,17 @@
     margin: 30px;
 }
 
+
+.submit .cancel {
+
+    direction: rtl;
+
+
+}
+#pic {
+    float: right;
+    width: 100px;
+}
 
     </style>
 </head>
@@ -55,31 +69,40 @@
 
     <form class="_1">
         <p> counrty </p>
-        <textarea name="Country _name" cols="20" rows="4" placeholder="Country name"> </textarea>
+        <textarea name="Country _name" cols="14" rows="2" placeholder="Country name"> </textarea>
         </form>
     
     
           <form class="_2">
           <p> Vaction Days </p>
-          <textarea name="Vaction_Days" cols="20" rows="4" placeholder="Vaction Days"> </textarea>
+          <textarea name="Vaction_Days" cols="14" rows="2" placeholder="Vaction Days"> </textarea>
           </form>
     
     
                 <form class="_3">
                 <p> Description </p>
-                <textarea name="Description" cols="40" rows="8" placeholder="talk about the counrty you will visit"> </textarea>
+                <textarea name="Description" cols="28" rows="5" placeholder="talk about the counrty you will visit"> </textarea>
         
                 </form>
+                <br>
+              
+                        <form class="submit"> 
+                            <input type="button" name="Book A Seat" value="submit">
+                           </form>
+
+                 
+
+                        <form class="cancel">
+                            <input type="button" name="cancel" value="cancel">
+                            </form>
+
+
+
+                     
+
     
-    
-                     <form class="submit"> 
-                     <input type="button" name="Book A Seat" value="submit">
-                    </form>
-    
-                         <form class="cancel">
-                        <input type="button" name="cancel" value="cancel">
-                        </form>
-     </div>
+                        
+    </div>
     
     <!-------------------------------------------------------------->
     
